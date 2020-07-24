@@ -6,7 +6,7 @@ the firmware for the x0xb0x
 
 ... TODO ...
 
-## MacOS: Installing homebrew-avr formulae
+## MacOS: Installing [homebrew-avr](https://github.com/osx-cross/homebrew-avr) formulae
 
 First, make sure you have xcode command line developer tools installed with
 
