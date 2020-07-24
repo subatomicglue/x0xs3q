@@ -32,7 +32,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <avr/signal.h>
+//#include <avr/signal.h> // kevin deprecated
 #include <stdio.h>
 #include "midi.h"
 #include "switch.h"
@@ -70,7 +70,7 @@ volatile static uint8_t head_idx = 0;
 volatile static uint8_t tail_idx = 0;
 
 // interrupt on receive char
-SIGNAL(SIG_USART0_RECV) {
+SIGNAL(USART0_RXC_vect) { // kevin was SIG_USART0_RECV
   char c = UDR0;
   
   if (c == MIDI_CLOCK) {

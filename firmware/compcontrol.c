@@ -33,7 +33,7 @@
 #include <inttypes.h>
 #include <stdio.h>
 #include <avr/io.h>
-#include <avr/signal.h>
+#include <avr/interrupt.h> // kevin was signal.h which is deprecated
 #include "pattern.h"
 #include "switch.h"
 #include "led.h"
@@ -101,7 +101,7 @@ const unsigned char CRC8Table[256] = {
 
 
 // interrupt on receive char
-SIGNAL(SIG_USART0_RECV) {
+SIGNAL(USART0_RX_vect) { // kevin was SIG_USART0_RECV
   uint8_t cmd, crc;
   uint16_t size;
   char c = UDR1;

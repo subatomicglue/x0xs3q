@@ -32,7 +32,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <avr/signal.h>
+//#include <avr/signal.h> // kevin
 #include <stdio.h>
 #include "main.h"
 #include "led.h"
@@ -94,7 +94,7 @@ extern volatile uint8_t dinsync_counter;  // defined in dinsync.c
 // the 'tempo' interrupt! (on timer 3) 
 // gets called 2*4*DINSYNC_PPQ times per beat (192 calls per beat @ sync24)
 // fastest is 300BPM -> 1ms
-SIGNAL(SIG_OVERFLOW3) {
+SIGNAL(TIMER3_OVF_vect) { // kevin was SIG_OVERFLOW3
   TCNT3 = timer3_init;  // FIXME, use CTC mode
   do_tempo();
 }
@@ -469,7 +469,7 @@ volatile extern uint16_t uart_timeout;
 
 volatile uint8_t blinktimer = 0;
 
-SIGNAL(SIG_OUTPUT_COMPARE0) {
+SIGNAL(TIMER0_COMP_vect) { // kevin, was SIG_OUTPUT_COMPARE0
   uint8_t curr_dinsync_c;
 
   if (debounce_timer != 0xFF) 
@@ -515,7 +515,7 @@ SIGNAL(SIG_OUTPUT_COMPARE0) {
 
 ///////////////////////////////////// pin change interrupts
 uint8_t last_tempo;
-SIGNAL(SIG_PIN_CHANGE0) {
+SIGNAL(PCINT0_vect) { // kevin was SIG_PIN_CHANGE0
 
   uint8_t curr_tempo;
 
