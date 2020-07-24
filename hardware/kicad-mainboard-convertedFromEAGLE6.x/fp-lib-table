@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name mainboard6)(type KiCad)(uri "$(KIPRJMOD)/mainboard6.pretty")(options "")(descr ""))
+)

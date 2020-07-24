@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ioboard6-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ioboard6-eagle-import.lib)(options "")(descr ""))
+)
