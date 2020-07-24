@@ -1,37 +1,7 @@
-# Firmware
 
-the firmware for the x0xb0x
+# c0ntrol
 
-## Windows:
-
-... TODO ...
-
-## MacOS: Installing homebrew-avr formulae
-
-First, make sure you have xcode command line developer tools installed with
-
-```console
-$ xcode-select --install
-```
-
-Then, just run the following to install the latest version of `avr-gcc`:
-
-```console
-$ brew tap osx-cross/avr
-$ brew install avr-gcc
-```
-
-If you want to install an older version: 
-
-```console
-$ brew install avr-gcc@X
-```
-
-Where `X` being the version number such as `avr-gcc@6`
-
-**Note**: only the latest version will be available in your `$PATH`. The older ones are `keg-only` and thus won't be availble in `/usr/local/bin`.
-
-You can run `brew info avr-gcc` for more information on the flags available.
+control app for the x0xb0x
 
 # copyright
 
@@ -51,3 +21,4 @@ Notably:
 ```
 If you plan to make, sell or manufacture x0xb0xes please contact us - we request that you credit Adafruit Industries on the documentation, supporting pages and circuit boards "Copyright (c) Limor Fried & Adafruit industries". x0xb0x (TM) is a trademarked name of Adafruit Industries. Please contact support@adafruit.com if you wish to seek permission to use the name for your products or projects, otherwise you cannot call your product "x0xb0x".
 ```
+
