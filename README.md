@@ -1,6 +1,6 @@
 # x0xs3q
 
-We are creating a standalone x0xb0x s3quencer.   **Please contribute!**
+We are creating a standalone [x0xb0x](https://www.ladyada.net/make/x0xb0x/) s3quencer.   **Please contribute!**
 
 The idea is a single circuit board with power, USB, MIDI, track/pattern, and the sequencer section of the original x0xb0x.  Embeddable into many styles of case, but targeting a 303 style case to start.
 
@@ -26,7 +26,7 @@ The idea is a single circuit board with power, USB, MIDI, track/pattern, and the
 
 # copyright
 
-this modification is built on the hard work of Limor Freid & Adafruit, and the x0xb0x community
+this modification is built on the hard work of [Limor Freid](https://www.adafruit.com/about) & [Adafruit](https://www.adafruit.com/), and the [x0xb0x](https://www.ladyada.net/make/x0xb0x/) community
 
 These files are all released under the [MIT Open Source license](http://en.wikipedia.org/wiki/MIT_License):
 
