@@ -2,12 +2,12 @@
 
 We are creating a standalone [x0xb0x](https://www.ladyada.net/make/x0xb0x/) s3quencer.   **Please contribute!**
 
-The idea is a single circuit board with power, USB, MIDI, track/pattern, and the sequencer section of the original x0xb0x.  Embeddable into many styles of case, but targeting a 303 style case to start.
+The idea is a single circuit board with power, USB, MIDI, track/pattern, and the sequencer section of the original [x0xb0x](https://www.ladyada.net/make/x0xb0x/).  Embeddable into many styles of case, but targeting a 303 style case to start.
 
 ## Features / Goals
 - Control other synths via MIDI out:
-  - Starting with the Behringer td-3, or midi enabled TB303
-  - Also support other mono synths (SH-101, etc)
+  - Starting with the [Behringer TD-3](https://www.google.com/search?q=behringer+td-3), or [midi enabled TB303](https://www.google.com/search?q=Roland+TB303+midi+mod)
+  - Also support other mono synths ([SH-101](https://www.google.com/search?q=Roland+SH-101+midi+retrofit), etc)
 - Select button mapping with a switch:
   - x0xb0x: the more intuitive style of interface found on the stock x0xb0x (which promotes intentional composition)
   - 303: the more difficult tb303 / td3 style interface (which promotes "happy accidents")
