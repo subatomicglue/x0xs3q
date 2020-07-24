@@ -1,4 +1,10 @@
-## Installing homebrew-avr formulae
+# Firmware
+
+## Windows: ... TODO ...
+
+... TODO ...
+
+## MacOS: Installing homebrew-avr formulae
 
 First, make sure you have xcode command line developer tools installed with
 
