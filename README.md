@@ -1,6 +1,6 @@
 # x0xs3q
 
-We are creating a standalone x0xb0x s3quencer.
+We are creating a standalone x0xb0x s3quencer.   **Please contribute!**
 
 The idea is a single circuit board with power, USB, MIDI, track/pattern, and the sequencer section of the original x0xb0x.  Embeddable into many styles of case, but targeting a 303 style case to start.
 
